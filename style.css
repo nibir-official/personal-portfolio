@@ -1,0 +1,172 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top-banner {
+    display: flex;
+    padding-left: 70px;
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    padding-left: 100px;
+    width: 70%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.tomato-color {
+    color: tomato;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to top left, #33ccff 0%, #ff33cc 100%);
+    color: white;
+    font-weight: 500;
+    padding: 8px 32px;
+    border-radius: 10px;
+}
+
+#first-part {
+    border-left: 4px solid;
+    border-image: linear-gradient(to top left, #33ccff 0%, #ff33cc 100%);
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+
+.middle-header h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.second-banner {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.middle-images {
+    width: 50%;
+}
+
+#mission {
+    margin: 30px 60px;
+    background-color: tomato;
+    background-size: 100px 150px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+#vission {
+    margin: 30px 60px;
+    background-color: rgb(18, 169, 189);
+    background-size: 100px 150px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+#goals {
+    margin: 30px 60px;
+    background-color: rgb(218, 8, 218);
+    background-size: 100px 150px;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.third-banner {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.half-width1 {
+    width: 50%;
+    margin-right: 150px;
+}
+
+.half-width1 img {
+    padding-right: 100px;
+    width: 70%;
+    margin-left: 150px;
+}
+
+.fourth-banner {
+    display: flex;
+    padding-left: 50px;
+    margin-bottom: 80px;
+}
+
+.half-width2 {
+    width: 50%;
+    margin-left: 70px;
+}
+
+.half-width2 img {
+    width: 65%;
+    padding-left: 50px;
+}
+
+
+/* Creative Part */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input {
+    padding: 20px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#msg {
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+#send {
+    width: 10%;
+    padding: 10px;
+    margin: 0px;
+    border: none;
+    outline: none;
+}
+
+#send:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
